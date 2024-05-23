@@ -1,0 +1,1713 @@
+{
+    "popular": [
+        {
+            "name": {
+                "de": "Pizza Milano",
+                "en": "Pizza Milano"
+            },
+            "description": {
+                "de": "mit Milano-Salami",
+                "en": "with Milano-Salami"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Nitrat",
+                        "en": "With nitrate"
+                    },
+                    {
+                        "de": "Mit Nitritpökelsalz und Nitrat",
+                        "en": "With nitrite curing salt"
+                    }
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 7.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Lasagne Rosa",
+                "en": "Lasagne Rosa"
+            },
+            "description": {
+                "de": "Mit Rinderhackfleisch, feiner Besciamela und Parmesan",
+                "en": "With Milano-Salami"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ]
+            },
+            "prize": 9.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizza Prima",
+                "en": "Pizza Prima"
+            },
+            "description": {
+                "de": "",
+                "en": ""
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.99,
+            "currency": "€"
+        }
+    ],
+    "antipasti": [
+        {
+            "name": {
+                "de": "Gemischte eingelegte Oliven",
+                "en": "Mixed pickled olives"
+            },
+            "description": {
+                "de": "Gemischte eingelegte Oliven mit Knoblauch",
+                "en": "Mixed pickled olives with garlic"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                   
+                ]
+            },
+            "prize": 1.80,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Jalapenos (scharf)",
+                "en": "Jalapenos (spicy)"
+            },
+            "description": {
+                "de": "",
+                "en": ""
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                   
+                ],
+                "producer_info": []
+            },
+            "prize": 1.80,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Aioli",
+                "en": "Aioli"
+            },
+            "description": {
+                "de": "Hausgemachte Knoblauchcreme",
+                "en": "Homemade garlic creme"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält Ei/-Erzeugnisse",
+                        "en": "Contains egg/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 2.10,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Bruschetta Toscana",
+                "en": "Bruschetta Toscana"
+            },
+            "description": {
+                "de": "Knuspriges Brot mit Tomaten, Knoblauch, Olivenöl und Basilikum",
+                "en": "Crispy bread with tomatoes, garlic, olive oil and basil"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 4.90,
+            "currency": "€"
+        }
+    ],
+    "salad": [
+        {
+            "name": {
+                "de": "Insalata Bambino",
+                "en": "Insalata Bambino"
+            },
+            "description": {
+                "de": "Mit Oliven, Rucola, Tomaten, Paprika, Mais, roten Zwiebeln und einem Dressing Ihrer Wahl und mit Krustini",
+                "en": "With olives, arugula, tomatoes, peppers, corn, red onions and a dressing of your choice and with Krustini"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 3.50,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Insalata Mista",
+                "en": "Insalata Mista"
+            },
+            "description": {
+                "de": "Mit Oliven, Rucola, Tomaten, Paprika, Mais, roten Zwiebeln und einem Dressing Ihrer Wahl und mit Krustini",
+                "en": "With olives, arugula, tomatoes, peppers, corn, red onions and a dressing of your choice and with Krustini"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 5.90,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Insalata Italia",
+                "en": "Insalata Italia"
+            },
+            "description": {
+                "de": "Mit Hinterschinken, Käse, Ei, Oliven, Rucola, Tomaten, Paprika, Mais, roten Zwiebeln und einem Dressing Ihrer Wahl und mit Krustini",
+                "en": "With ham, cheese, egg, olives, arugula, tomatoes, peppers, corn, red onions and a dressing of your choice and with Krustini"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Konservierungsstoffen",
+                        "en": "With preservatives"
+                    },
+                    {
+                        "de": "Mit Antioxidationsmittel",
+                        "en": "With antioxidants"
+                    }
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält Ei/-Erzeugnisse",
+                        "en": "Contains egg/products"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.00,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Insalata Salmone",
+                "en": "Insalata Salmone"
+            },
+            "description": {
+                "de": "Mit Kapern, Thunfisch, Krabben, Knoblauch, Oliven, Rucola, Tomaten, Paprika, Mais, roten Zwiebeln und einem Dressing Ihrer Wahl und mit Krustini",
+                "en": "With capers, tuna, crabs, garlic, olives, arugula, tomatoes, peppers, corn, red onions and a dressing of your choice and with Krustini"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält Krebstiere/-Erzeugnisse",
+                        "en": "Contains crustaceans/products"
+                    },
+                    {
+                        "de": "Enthält Fisch/-Erzeugnisse",
+                        "en": "Contains fish/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.00,
+            "currency": "€"
+        }
+    ],
+    "pizza": [
+        {
+            "name": {
+                "de": "Pizza Margherita",
+                "en": "Pizza Margherita"
+            },
+            "description": {
+                "de": "Mit fruchtiger Tomatensauce und Mozarella",
+                "en": "With fruity tomato sauce and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Nitrat",
+                        "en": "With nitrate"
+                    },
+                    {
+                        "de": "Mit Nitritpökelsalz und Nitrat",
+                        "en": "With nitrite curing salt"
+                    }
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 6.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizza Milano",
+                "en": "Pizza Milano"
+            },
+            "description": {
+                "de": "Mit Milano-Salami, fruchtiger Tomatensauce und Mozarella",
+                "en": "With Milano salami, fruity tomato sauce and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Nitrat",
+                        "en": "With nitrate"
+                    },
+                    {
+                        "de": "Mit Nitritpökelsalz und Nitrat",
+                        "en": "With nitrite curing salt"
+                    }
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 7.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizza Funghi",
+                "en": "Pizza Funghi"
+            },
+            "description": {
+                "de": "Mit frischen Champignons, fruchtiger Tomatensauce und Mozarella",
+                "en": "With fresh mushrooms, fruity tomato sauce and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 7.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizza Hawaii",
+                "en": "Pizza Hawaii"
+            },
+            "description": {
+                "de": "Mit Anannasscheiben, Gran-Biscotto-Kochschinken, fruchtiger Tomatensauce und Mozarella",
+                "en": "With pineapple slices, Gran Biscotto cooked ham, fruity tomato sauce and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Nitrat",
+                        "en": "With nitrate"
+                    },
+                    {
+                        "de": "Mit Nitritpökelsalz und Nitrat",
+                        "en": "With nitrite curing salt"
+                    }
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 8.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizza Mista",
+                "en": "Pizza Mista"
+            },
+            "description": {
+                "de": "Mit Gran-Biscotto-Kochschinken, fruchtiger Tomatensauce und Mozarella",
+                "en": "With Gran Biscotto cooked ham, fruity tomato sauce and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Nitrat",
+                        "en": "With nitrate"
+                    },
+                    {
+                        "de": "Mit Nitritpökelsalz und Nitrat",
+                        "en": "With nitrite curing salt"
+                    }
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizza 4 Käse",
+                "en": "Pizza 4 Cheese"
+            },
+            "description": {
+                "de": "Mit verschiedenen Käsesorten, fruchtiger Tomatensauce und Mozarella",
+                "en": "With different types of cheese, fruity tomato sauce and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 11.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizza 4 Jahreszeiten",
+                "en": "Pizza 4 Seasons"
+            },
+            "description": {
+                "de": "Mit Gran-Biscotto-Kochschinken, frischer Paprika, frischen Champignons, fruchtiger Tomatensauce und Mozarella",
+                "en": "With Gran Biscotto cooked ham, fresh peppers, fresh mushrooms, fruity tomato sauce and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Nitrat",
+                        "en": "With nitrate"
+                    },
+                    {
+                        "de": "Mit Nitritpökelsalz und Nitrat",
+                        "en": "With nitrite curing salt"
+                    }
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 11.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizza Frutti di Mare",
+                "en": "Pizza Frutti di Mare"
+            },
+            "description": {
+                "de": "Mit frischen Meeresfrüchten, fruchtiger Tomatensauce und Mozarella",
+                "en": "With fresh seafood, fresh mushrooms, fruity tomato sauce and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+   
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Krebstiere/-Erzeugnisse",
+                        "en": "Contains crustaceans/products"
+                    },
+                    {
+                        "de": "Enthält Fisch/-Erzeugnisse",
+                        "en": "Contains fish/products"
+                    },
+                    {
+                        "de": "Enthält Weichtiere/-Erzeugnisse",
+                        "en": "Contains molluscs/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 11.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizza Tonno",
+                "en": "Pizza Tonno"
+            },
+            "description": {
+                "de": "Mit Thunfisch, Zwiebeln, fruchtiger Tomatensauce und Mozarella",
+                "en": "With tuna, onions, fresh mushrooms, fruity tomato sauce and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+     
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Fisch/-Erzeugnisse",
+                        "en": "Contains fish/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 11.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizza Vegetaria",
+                "en": "Pizza Vegetaria"
+            },
+            "description": {
+                "de": "Mit frischer Paprika, frischen Champignons, Zuchini, Auberginen, Zwiebeln, fruchtiger Tomatensauce und Mozarella",
+                "en": "With fresh peppers, fresh mushrooms, zuchini, eggplant, fruity tomato sauce and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+      
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 11.99,
+            "currency": "€"
+        }
+    ],
+    "pizza_family": [
+        {
+            "name": {
+                "de": "Familien-Pizza",
+                "en": "Pizza Family"
+            },
+            "description": {
+                "de": "Familien-Pizza 60x40cm 4 bis 6 Personen",
+                "en": "Family pizza 60x40cm 4 to 6 people"
+            },
+            "product_info": {
+                "contains": [
+      
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 29.99,
+            "currency": "€"
+        }
+    ],
+    "pizza_bread": [
+        {
+            "name": {
+                "de": "Pizzabrot Bruschetta",
+                "en": "Pizza bread Bruschetta"
+            },
+            "description": {
+                "de": "Mit fruchtigen Tomaten, Zwiebeln, Knoblauch, Olivenöl und aromatischem Basilikum",
+                "en": "With fruity tomatoes, onions, garlic, olive oil and aromatic basil"
+            },
+            "product_info": {
+                "contains": [
+      
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 5.99,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Pizzabrot Diversa",
+                "en": "Pizza bread Diversa"
+            },
+            "description": {
+                "de": "Mit Sardinen und Mozarella",
+                "en": "With sardines and mozzarella"
+            },
+            "product_info": {
+                "contains": [
+      
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Fisch/-Erzeugnisse",
+                        "en": "Contains fish/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 5.99,
+            "currency": "€"
+        }
+    ],
+    "pasta_classica": [
+        {
+            "name": {
+                "de": "Rigatoni Promodoro",
+                "en": "Rigatoni Promodoro"
+            },
+            "description": {
+                "de": "Mit Tomatensauce",
+                "en": "With tomato sauce"
+            },
+            "product_info": {
+                "contains": [
+      
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Weizen",
+                        "en": "Contains wheat"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.00,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Gnocchi Mozarella",
+                "en": "Gnocchi Mozarella"
+            },
+            "description": {
+                "de": "Mit Mozarella und Tomatensauce",
+                "en": "With Mozarella and tomato sauce"
+            },
+            "product_info": {
+                "contains": [
+      
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.00,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Spaghetti Bolognese",
+                "en": "Spaghetti Bolognese"
+            },
+            "description": {
+                "de": "Mit Hackfleischsauce",
+                "en": "With minced meat sauce"
+            },
+            "product_info": {
+                "contains": [
+      
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.90,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Spaghetti Carbonara",
+                "en": "Spaghetti Carbonara"
+            },
+            "description": {
+                "de": "Mit Schinken, Sahne und Ei",
+                "en": "With ham, cream and egg"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Nitrat",
+                        "en": "With nitrate"
+                    },
+                    {
+                        "de": "Mit Nitritpökelsalz und Nitrat",
+                        "en": "With nitrite curing salt"
+                    }
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Weizen",
+                        "en": "Contains wheat"
+                    },
+                    {
+                        "de": "Enthält Ei/-Erzeugnisse",
+                        "en": "Contains egg/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 10.00,
+            "currency": "€"
+        }
+    ],
+    "pasta_alforno": [
+        {
+            "name": {
+                "de": "Lasagna Rosa",
+                "en": "Lasagna Rosa"
+            },
+            "description": {
+                "de": "Mit Rinderhackfleisch, feiner Besciamela und Parmesan",
+                "en": "With minced beef, fine Besciamela and Parmesan"
+            },
+            "product_info": {
+                "contains": [
+      
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.90,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Canneloni al Forno",
+                "en": "Canneloni al Forno"
+            },
+            "description": {
+                "de": "Gefüllt mit Rinderhackfleisch, feiner Besciamella und Parmesan",
+                "en": "Filled with minced beef, fine Besciamella and Parmesan"
+            },
+            "product_info": {
+                "contains": [
+      
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.90,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Canneloni al Verde",
+                "en": "Canneloni al Verde"
+            },
+            "description": {
+                "de": "Gefüllt mit Spinat und Ricotta in Gorgonzola-Sahnesauce",
+                "en": "Filled with spinach and ricotta in Gorgonzola cream sauce"
+            },
+            "product_info": {
+                "contains": [
+      
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.90,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Rigatoni Primavera",
+                "en": "Rigatoni Primavera"
+            },
+            "description": {
+                "de": "Mit Bolognese, Sahnesauce, Schinken, Erbsen und frischen Champignons",
+                "en": "With Bolognese, cream sauce, ham, peas and fresh mushrooms"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Nitrat",
+                        "en": "With nitrate"
+                    },
+                    {
+                        "de": "Mit Nitritpökelsalz und Nitrat",
+                        "en": "With nitrite curing salt"
+                    }
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Weizen",
+                        "en": "Contains wheat"
+                    },
+                    {
+                        "de": "Enthält Ei/-Erzeugnisse",
+                        "en": "Contains egg/products"
+                    },
+                    {
+                        "de": "Enthält Sellerie/-Erzeugnisse",
+                        "en": "Contains celery/produce"
+                    },
+                    {
+                        "de": "Enthält Schwefeldioxid/Sulfide",
+                        "en": "Contains sulfur dioxide/sulfides"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.90,
+            "currency": "€"
+        }
+    ],
+    "schnitzel": [
+        {
+            "name": {
+                "de": "Putenschnitzel Wiener Art",
+                "en": "Viennese style turkey schnitzel"
+            },
+            "description": {
+                "de": "Mit Zitrone, Pommes frites und Salat",
+                "en": "With lemon, French fries and salad"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Ei/-Erzeugnisse",
+                        "en": "Contains egg/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 12.90,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Putenschnitzel Funghi",
+                "en": "Turkey schnitzel Funghi"
+            },
+            "description": {
+                "de": "Mit frischen Champignons, Sahnesauce, Pommes frites und Salat",
+                "en": "With fresh mushrooms, cream sauce, French fries and salad"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 12.90,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Schweineschnitzel Jäger Art",
+                "en": "Pork schnitzel hunter type"
+            },
+            "description": {
+                "de": "Mit frischen Pilzen und Jägersauce, Pommes frites und Salat",
+                "en": "Baked fresh mushrooms and hunter sauce, French fries and salad"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 14.90,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Schweineschnitzel Bolognese",
+                "en": "Pork schnitzel Bolognese"
+            },
+            "description": {
+                "de": "Mit Rinderhackfleischsauce und Käse überbacken, Pommes frites und Salat",
+                "en": "Baked with ground beef sauce and cheese, French fries and salad"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Ei/-Erzeugnisse",
+                        "en": "Contains egg/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 14.90,
+            "currency": "€"
+        }
+    ],
+    "extra": [
+        {
+            "name": {
+                "de": "Pommes frites",
+                "en": "French fries"
+            },
+            "description": {
+                "de": "",
+                "en": ""
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    
+                ]
+            },
+            "prize": 3.90,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Hausgemachte Bratkartoffeln",
+                "en": "Homemade fried potatoes"
+            },
+            "description": {
+                "de": "",
+                "en": ""
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    
+                ],
+                "producer_info": []
+            },
+            "prize": 2.10,
+            "currency": "€"
+        }
+    ],
+    "desserts": [
+        {
+            "name": {
+                "de": "Tiramisu",
+                "en": "Tiramisu"
+            },
+            "description": {
+                "de": "",
+                "en": ""
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Enthält Koffein",
+                        "en": "Contains caffeine"
+                    }
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains grains/products containing gluten"
+                    },
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Ei/-Erzeugnisse",
+                        "en": "Contains egg/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 4.90,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Cheesecake ai Frutti di Bosco (Glutenfrei)",
+                "en": "Cheesecake ai Frutti di Bosco (gluten free)"
+            },
+            "description": {
+                "de": "Glutenfrei",
+                "en": "Gluten free"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Ei/-Erzeugnisse",
+                        "en": "Contains egg/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 3.70,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Torta della Nonna (Glutenfrei)",
+                "en": "Torta della Nonna (gluten free)"
+            },
+            "description": {
+                "de": "Feine italienische Torte mit leckerer Vanille-Zitrone Cremefüllung 650g. Glutenfrei, schockgefroren",
+                "en": "Fine Italian cake with delicious vanilla-lemon cream filling 650g. Gluten free, flash frozen"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [
+                    {
+                        "de": "Enthält Milch/-Erzeugnisse (laktosehaltig)",
+                        "en": "Contains milk/products (containing lactose)"
+                    },
+                    {
+                        "de": "Enthält Ei/-Erzeugnisse",
+                        "en": "Contains egg/products"
+                    }
+                ],
+                "producer_info": []
+            },
+            "prize": 9.90,
+            "currency": "€"
+        }
+    ],
+    "soft_drinks": [
+        {
+            "name": {
+                "de": "Coca-Cola 1,0 l (Mehrweg)",
+                "en": "Coca-Cola 1.0 l (Reusable)"
+            },
+            "description": {
+                "de": "Coca-Cola steht für einzigartigen Geschmack, Erfrischung und Momente voller Lebensfreude. Die 1,0l PET Mehrwegflasche für die perfekte Erfrischung für jeden Tag - allein oder zu zweit",
+                "en": "Coca-Cola stands for unique taste, refreshment and moments full of joy of life. The 1.0l PET reusable bottle for the perfect refreshment for every day - alone or as a couple"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Farbstoff",
+                        "en": "With colorant"
+                    },
+                    {
+                        "de": "Enthält Koffein",
+                        "en": "Contains caffeine"
+                    },
+                    {
+                        "de": "Enthält Koffein. Kindern und Schwangeren wird der Konsum abgeraten",
+                        "en": "Contains caffeine. Children and pregnant women are not advised to consume it"
+                    },
+                    {
+                        "de": "Mit Säuerungsmittel",
+                        "en": "With acidulant"
+                    }
+                ],
+                "allergens": [],
+                "ingridients": [
+                    {
+                        "de": "Wasser",
+                        "en": "Water"
+                    },
+                    {
+                        "de": "Zucker",
+                        "en": "sugar"
+                    },
+                    {
+                        "de": "Kohlensäure",
+                        "en": "carbonic acid"
+                    },
+                    {
+                        "de": "Farbstoff E 150d",
+                        "en": "dye E 150d"
+                    },
+                    {
+                        "de": "Säuerungsmittel",
+                        "en": "acidulant"
+                    },
+                    {
+                        "de": "Phosphorsäure",
+                        "en": "phosphoric acid"
+                    },
+                    {
+                        "de": "natürliches Aroma",
+                        "en": "natural flavor"
+                    },
+                    {
+                        "de": "Aroma Koffein",
+                        "en": "flavor caffeine"
+                    }
+                ],
+                "producer_info": [
+                    {
+                        "description": [
+                            {
+                                "de": "Coca-Cola European Partners DE mit Genehmigung von THE COCA-COLA COMPANY",
+                                "en": "Coca-Cola European Partners DE with authorization of THE COCA-COLA COMPANY"
+                            }
+                        ],
+                        "address": [
+                            {
+                                "de": "Postfach 670156, 10207 Berlin",
+                                "en": "P.O. Box 670156, 10207 Berlin"
+                            }
+                        ],
+                        "notes": "Aufbewahrung- und Verwendungshinweise: Kühl und trocken lagern!",
+                        "nutritional_values": [
+                            {
+                                "de": "Nährwerte pro 100 ml",
+                                "en": "nutritional values per 100 ml"
+                            },
+                            {
+                                "de": "Energie: 180 kJ",
+                                "en": "Energy: 180 kJ"
+                            },
+                            {
+                                "de": "Energie: 42 kcal",
+                                "en": "Energy: 42 kcal"
+                            },
+                            {
+                                "de": "Fett: 0 g",
+                                "en": "Fat: 0 g"
+                            },
+                            {
+                                "de": "Davon gesättigte Fettsäuren: 0 g",
+                                "en": "Of which saturated fatty acids: 0 g"
+                            },
+                            {
+                                "de": "Salz: 0 g",
+                                "en": "Salt: 0 g"
+                            },
+                            {
+                                "de": "Kohlenhydrate: 10,6 g",
+                                "en": "Carbohydrates: 10.6 g"
+                            },
+                            {
+                                "de": "Davon Zucker: 10,6 g",
+                                "en": "Thereof sugar: 10.6 g"
+                            },
+                            {
+                                "de": "Eiweiß: 0 g",
+                                "en": "Protein: 0 g"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "prize": 2.75,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Fanta Orange 1,0 l (Mehrweg)",
+                "en": "Fanta Orange 1.0 l (Reusable)"
+            },
+            "description": {
+                "de": "Trinke Fanta. Lebe bunter. Spritzig erfrischend begleitet die originale Fanta Orange jede Lebenssituation und macht jetzt noch mehr Spaß",
+                "en": "Drink Fanta. Live more colorful. The original, refreshing Fanta Orange accompanies every situation in life and is now even more fun"
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Mit Farbstoff",
+                        "en": "With colorant"
+                    },
+                    {
+                        "de": "Mit Antioxidationsmittel",
+                        "en": "With antioxidant"
+                    },
+                    {
+                        "de": "enthält Stabilisatoren",
+                        "en": "Contains stabilizers"
+                    },
+                    {
+                        "de": "Mit Säuerungsmittel",
+                        "en": "With acidulant"
+                    }
+                ],
+                "allergens": [],
+                "ingridients": [
+                    {
+                        "de": "Wasser",
+                        "en": "Water"
+                    },
+                    {
+                        "de": "Zucker",
+                        "en": "sugar"
+                    },
+                    {
+                        "de": "Orangensaft aus Orangensaftkonzentrat",
+                        "en": "Orange juice from orange juice concentrate"
+                    },
+                    {
+                        "de": "Kohlensäure",
+                        "en": "carbonic acid"
+                    },
+                    {
+                        "de": "Säuerungsmittel Citronensäure",
+                        "en": "acidulant citric acid"
+                    },
+                    {
+                        "de": "Citrusextrakt",
+                        "en": "citrus extract"
+                    },
+                    {
+                        "de": "natürliches Orangenaroma mit anderen natürlichen Aromen",
+                        "en": "natural orange flavor with other natural flavors"
+                    },
+                    {
+                        "de": "Antioxidationsmittel Ascorbinsäure, Farbstoff Carotin",
+                        "en": "antioxidant ascorbic acid, colorant carotene"
+                    },
+                    {
+                        "de": "Stabilisatoren (E 412, E 414 und E 445)",
+                        "en": "stabilizers (E 412, E 414 and E 445)"
+                    }
+                ],
+                "producer_info": [
+                    {
+                        "description": [
+                            {
+                                "de": "Coca-Cola European Partners DE mit Genehmigung von THE COCA-COLA COMPANY",
+                                "en": "Coca-Cola European Partners DE with authorization of THE COCA-COLA COMPANY"
+                            }
+                        ],
+                        "address": [
+                            {
+                                "de": "Postfach 670156, 10207 Berlin",
+                                "en": "P.O. Box 670156, 10207 Berlin"
+                            }
+                        ],
+                        "notes": "Aufbewahrung- und Verwendungshinweise: Kühl und trocken lagern!",
+                        "nutritional_values": [
+                            {
+                                "de": "Nährwerte pro 100 ml",
+                                "en": "nutritional values per 100 ml"
+                            },
+                            {
+                                "de": "Energie: 160 kJ",
+                                "en": "Energy: 160 kJ"
+                            },
+                            { 
+                                "de": "Energie: 38 kcal",
+                                "en": "Energy: 38 kcal"
+                            },
+                            {
+                                "de": "Fett: 0 g",
+                                "en": "Fat: 0 g"
+                            },
+                            {
+                                "de": "Davon gesättigte Fettsäuren: 0 g",
+                                "en": "Of which saturated fatty acids: 0 g"
+                            },
+                            {
+                                "de": "Salz: 0,01 g",
+                                "en": "Salt: 0.01 g"
+                            },
+                            {
+                                "de": "Kohlenhydrate: 9,2 g",
+                                "en": "Carbohydrates: 9.2 g"
+                            },
+                            {
+                                "de": "Davon Zucker: 9,1 g",
+                                "en": "Thereof sugar: 9.1 g"
+                            },
+                            {
+                                "de": "Eiweiß: 0 g",
+                                "en": "Protein: 0 g"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "prize": 2.75,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Aqua Panna Tuscany 0,75l (MEHRWEG)",
+                "en": "Aqua Panna Tuscany 0.75l (Reusable)"
+            },
+            "description": {
+                "de": "Quelle: Naturlandschaft Panna, Toskana, Italien",
+                "en": "Source: Panna Natural Landscape, Tuscany, Italy"
+            },
+            "product_info": {
+                "contains": [
+                    
+                ],
+                "allergens": [],
+                "ingridients": [
+                    
+                ],
+                "producer_info": [
+                    {
+                        "description": [
+                            {
+                                "de": "Nestlé Waters Deutschland GmbH",
+                                "en": "Nestlé Waters Germany GmbH"
+                            }
+                        ],
+                        "address": [
+                            {
+                                "de": "Lyoner Straße 23, 60528 Frankfurt / Main",
+                                "en": "Lyoner Street 23, 60528 Frankfurt / Main"
+                            }
+                        ],
+                        "notes": "",
+                        "nutritional_values": [
+                            
+                        ]
+                    }
+                ]
+            },
+            "prize": 2.35,
+            "currency": "€"
+        }
+    ],
+    "drinks": [
+        {
+            "name": {
+                "de": "Licher Pilsner 0,5 l",
+                "en": "Licher Pilsner 0,5 l"
+            },
+            "description": {
+                "de": "",
+                "en": ""
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Enthält glutenhaltige/s Getreide/-Erzeugnisse",
+                        "en": "Contains cereals/products containing gluten"
+                    },
+                    {
+                        "de": "Gerste",
+                        "en": "Barley"
+                    }
+                ],
+                "ingridients": [
+                    {
+                        "de": "Wasser",
+                        "en": "Water"
+                    },
+                    {
+                        "de": "Gerstenmalz",
+                        "en": "Barley malt"
+                    },
+                    {
+                        "de": "Hopfen",
+                        "en": "Hops"
+                    }
+                ],
+                "producer_info": [
+                    {
+                        "description": [
+                            {
+                                "de": "Licher Privatbrauerei",
+                                "en": "Licher private brewery"
+                            }
+                        ],
+                        "address": [
+                            {
+                                "de": "35423 Lich/Hessen",
+                                "en": "35423 Lich/Hessen"
+                            }
+                        ],
+                        "notes": "",
+                        "nutritional_values": [
+                            {
+                                "de": "Durchschnittliche Nährwerte pro 100 ml",
+                                "en": "Average nutritional values per 100 ml"
+                            },
+                            {
+                                "de": "Energie: 172 kJ / 41 kcal",
+                                "en": "Energy: 172 kJ / 41 kcal"
+                            },
+                            {
+                                "de": "Fett: 0 g",
+                                "en": "Fat: 0 g"
+                            },
+                            {
+                                "de": "Davon gesättigte Fettsäuren: 0 g",
+                                "en": "Of which saturated fatty acids: 0 g"
+                            },
+                            {
+                                "de": "Kohlenhydrate: 3,1 g",
+                                "en": "Carbohydrates: 3.1 g"
+                            },
+                            {
+                                "de": "Davon Zucker: 0 g",
+                                "en": "Thereof sugar: 0 g"
+                            },
+                            {
+                                "de": "Eiweiß: 0,5 g",
+                                "en": "Protein: 0,5 g"
+                            },
+                            {
+                                "de": "Salz: 0 g",
+                                "en": "Salt: 0 g"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "prize": 2.12,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Siciliano Rotwein 0,75 l",
+                "en": "Siciliano red wine 0,75 l"
+            },
+            "description": {
+                "de": "",
+                "en": ""
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Enthält Schwefeldioxid/Sulfite",
+                        "en": "Contains sulphur dioxide/sulphites"
+                    }
+                ],
+                "ingridients": [
+                    
+                ],
+                "allergens": [],
+                "producer_info": [
+                    {
+                        "description": [
+                            {
+                                "de": "da Soc. Agr. Tenute Mokarta S.R.L",
+                                "en": "da Soc. Agr. Tenute Mokarta S.R.L"
+                            }
+                        ],
+                        "address": [
+                            {
+                                "de": "C.da San Ciro 487 - Salemi (TP) Italia",
+                                "en": "C.da San Ciro 487 - Salemi (TP) Italia"
+                            }
+                        ],
+                        "notes": "",
+                        "nutritional_values": [
+                            
+                        ]
+                    }
+                ]
+            },
+            "prize": 11.00,
+            "currency": "€"
+        },
+        {
+            "name": {
+                "de": "Siciliano Weißwein 0,75 l",
+                "en": "Siciliano white wine 0,75 l"
+            },
+            "description": {
+                "de": "",
+                "en": ""
+            },
+            "product_info": {
+                "contains": [
+                    {
+                        "de": "Enthält Schwefeldioxid/Sulfite",
+                        "en": "Contains sulphur dioxide/sulphites"
+                    }
+                ],
+                "ingridients": [
+                    
+                ],
+                "allergens": [],
+                "producer_info": [
+                    {
+                        "description": [
+                            {
+                                "de": "da Soc. Agr. Tenute Mokarta S.R.L",
+                                "en": "da Soc. Agr. Tenute Mokarta S.R.L"
+                            }
+                        ],
+                        "address": [
+                            {
+                                "de": "C.da San Ciro 487 - Salemi (TP) Italia",
+                                "en": "C.da San Ciro 487 - Salemi (TP) Italia"
+                            }
+                        ],
+                        "notes": "",
+                        "nutritional_values": [
+                            
+                        ]
+                    }
+                ]
+            },
+            "prize": 11.00,
+            "currency": "€"
+        }
+    ]
+}
