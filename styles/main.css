@@ -1141,6 +1141,10 @@ html:not([data-scroll='0']) .navcontainer > .wrapper {
     cursor: pointer;
 }
 
+.clickable:hover {
+    cursor: pointer;
+}
+
 @media(max-width: 1430px) {
     .layout {
         display: grid;

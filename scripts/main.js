@@ -85,6 +85,11 @@ function pushBasketOrderNoteToGrid(i, j) {
 
 
 function getNoteChangeRow(i, j) {
+    setBasketOrderNoteInput(i, j);
+    setBasketOrderNoteChange(i, j);
+}
+
+function setBasketOrderNoteInput(i, j) {
     let input = document.querySelectorAll('.inputBasketOrderNoteField' + i);
     input.forEach((element) => { element.innerHTML = ''; });
     let basketOrderNote = document.querySelectorAll('.basketOrderNote' + i);
@@ -101,12 +106,14 @@ function getNoteChangeRow(i, j) {
             element.style.setProperty('grid-area', `${j + 3} / 2 / auto / 3`);
         }
     });
+}
 
+function setBasketOrderNoteChange(i, j) {
     let lang = getLanguage();
     let basketOrderNoteChange = document.querySelectorAll('.basketOrderNoteChange' + i);
     basketOrderNoteChange.forEach((element) => {
         if (get.basket[i].note != '') {
-            element.innerHTML = /*html*/ `<div class="basketOrderNoteChange${i}" onclick="changeBasketOrderNote(${i}, ${j})">${(lang == "german") ? 'Anmerkung bearbeiten' : 'Edit note'}</div>`;
+            element.innerHTML = /*html*/ `<div class="basketOrderNoteChange${i} clickable" onclick="changeBasketOrderNote(${i}, ${j})">${(lang == "german") ? 'Anmerkung bearbeiten' : 'Edit note'}</div>`;
             element.style.setProperty('grid-area', `${j + 4} / 2 / auto / 3`);
         }
         else if (get.basket[i].note == '') {

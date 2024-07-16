@@ -55,8 +55,6 @@ function hideContent(query) {
 export function content() {
     currentLayout = layouts.getLayout();
     set(currentLayout);
-    //language.getLanguage();
-    //language.checkLanguage();
 
     includeHTML().then(res => {
         // Do something else after loaded layout
@@ -107,7 +105,6 @@ function checkCenterPosition() {
 
 
 const storeScroll = () => {
-    //checkCenterPosition();
     if (window.scrollY > 372)
         document.documentElement.dataset.scroll = 32;
     else if (window.scrollY < 373)
@@ -115,13 +112,11 @@ const storeScroll = () => {
     if (window.scrollY > 372) {
         if (document.getElementById('navcontainer')) {
             document.getElementById('navcontainer').classList.add('fixednav');
-            //document.querySelector('.navbar').style.setProperty('margin', '0 16px 0 16px');
         }
     }
     else if (window.scrollY < 301) {
         if (document.getElementById('navcontainer')) {
             document.getElementById('navcontainer').classList.remove('fixednav');
-            //document.querySelector('.navbar').style.setProperty('margin', '0 185px 0 185px');
         }
     }
 }
@@ -146,7 +141,6 @@ export function removeFromBasket(list, i) {
         get.basket.splice(index, 1);
         document.querySelector('.bottom').dataset.basket = 0;
     }
-    //if(get.basket[j].amount <= 0) clearOrderRow(j);
 
     localStorage.setItem('basket', JSON.stringify(get));
     get = JSON.parse(localStorage.getItem('basket'));
