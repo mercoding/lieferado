@@ -127,10 +127,6 @@ const storeScroll = () => {
 }
 
 
-function showMealInfo(list, i) {
-}
-
-
 function checkBasket(name) {
     if (JSON.parse(localStorage.getItem('basket'))) get = JSON.parse(localStorage.getItem('basket'));
     for (let index = 0; index < get.basket.length; index++) if (get.basket[index].name == name) return index;
@@ -223,12 +219,18 @@ function mouseIsDown(e) {
     scrollLeft = container.scrollLeft;
     scrollTop = container.scrollTop;
 }
+
+
 function mouseUp(e) {
     isDown = false;
 }
+
+
 function mouseLeave(e) {
     isDown = false;
 }
+
+
 function mouseMove(e) {
     if (isDown) {
         e.preventDefault();
@@ -249,4 +251,3 @@ function mouseMove(e) {
 window.content = content;
 window.addToBasket = addToBasket;
 window.removeFromBasket = removeFromBasket;
-window.showMealInfo = showMealInfo;

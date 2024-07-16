@@ -1,12 +1,7 @@
 import { get, setBasketData, removeFromBasket, removeAllFromBasket } from "./content.js";
-import { getGermanDataprotection } from './html/german/datenschutz.js';
-import { getGemanImprint } from './html/german/impressum.js';
 import { getBasketSubtotal, getBasketTotal, getMinimumValueDescription, inputBasketOrderNote, setBasketOrderNoteRow, setBasketOrderRow } from './html/basket.js';
 import { getLanguage } from "./language.js";
-import { getEnglishImprint } from "./html/english/imprint.js";
-import { getEnglishDataprotection } from "./html/english/dataprotection.js";
-import { getHamburgerButtonStatus, hamburgerWasClicked } from "./hamburger.js";
-
+import { basketOpen, closeOverlay, openOverlay } from "./overlay.js";
 
 
 function checkSBPanel() {
@@ -29,7 +24,6 @@ function addAmount(i) {
 
 
 function minusAmount(i) {
-    //if(get.basket[i].list != null) 
     removeFromBasket(get.basket[i].list, get.basket[i].index, i);
 }
 
@@ -53,7 +47,7 @@ function getBasketOrderPrize(i, j) {
     let basketOrderPrize = document.querySelectorAll(`.basketOrderPrize${i}`);
     basketOrderPrize.forEach((element) => {
         element.style.setProperty('grid-area', `${j + 1} / 6`);
-        element.style.setProperty('grid-column', `6 / 8`);
+        element.style.setProperty('grid-column', `5 / 8`);
         element.innerHTML = (parseFloat(get.basket[i].prize).toFixed(2)).replace('.', ',') + " €";
     });
 }
@@ -188,7 +182,6 @@ function setBasketStyle(basket) {
     basket.style.setProperty('overflow-x', 'hiden');
     basket.style.setProperty('overflow-y', 'auto');
     basket.style.setProperty('height', `100%`);
-    //if (basket.clientHeight < 512) document.querySelector('.shoppingbasketordersection').style.setProperty('height', `calc(${get.basket.length} * 96px`);
 }
 
 
@@ -366,94 +359,6 @@ export function refreshBasket() {
 }
 
 
-function closeOverlay() {
-    document.querySelector('.overlay').classList.add('d-none');
-    document.querySelector('.overlay').style.setProperty('display', 'none');
-    document.querySelector('html').style.setProperty('overflow', 'auto');
-    refreshBasket();
-    let isHamburgerActive = getHamburgerButtonStatus();
-    if (isHamburgerActive) hamburgerWasClicked();
-}
-
-
-function getOverlayCloseButton() {
-    return /*html*/`
-        <div class="closecontainer" onclick="closeOverlay()">
-            <div class="closebarone"></div>
-            <div class="closebartwo"></div>
-        </div>  
-    `;
-}
-
-
-function openOverlay(page) {
-    let overlaycontainer = document.querySelector('.overlaycontainer');
-    overlaycontainer.innerHTML = '';
-    document.querySelector('.overlay').classList.remove('d-none');
-    document.querySelector('.overlay').style.setProperty('display', 'flex');
-    document.querySelector('.overlay').style.setProperty('justify-content', 'center');
-    document.querySelector('.overlay').style.setProperty('align-items', 'center');
-    document.querySelector('html').style.setProperty('overflow', 'hidden');
-    overlaycontainer.innerHTML += /*html*/`
-        <div class="overlaytop"></div>  
-        <div class="overlaymain"></div>  
-    `;
-
-    switch (page) {
-        case "basket": showBasket(); break;
-        case "imprint": showImprint(); break;
-        case "dataprotection": showDataprotection(); break;
-    }
-}
-
-
-function showBasket() {
-    document.querySelector('.overlay').style.setProperty('overflow', 'hidden');
-    let overlaycontainer = document.querySelector('.overlaycontainer');
-    let basket = document.querySelectorAll('.shoppingbasket');
-    overlaycontainer.style.setProperty('display', 'grid');
-    overlaycontainer.style.setProperty('overflow', 'hidden');
-    overlaycontainer.style.setProperty('grid-template-rows', '64px 1fr');
-    document.querySelector('.overlaytop').style.setProperty('grid-row', '1');
-    document.querySelector('.overlaytop').style.setProperty('overflow', 'hidden');
-    document.querySelector('.overlaymain').style.setProperty('grid-row', '2');
-    let overlaymain = document.querySelector('.overlaymain');
-    basket.forEach((element) => { overlaymain.innerHTML = element.innerHTML; });
-    document.querySelector('.overlaytop').innerHTML = getOverlayCloseButton();
-}
-
-
-function showDataprotection() {
-    let lang = getLanguage();
-    document.querySelector('.overlay').style.setProperty('overflow', 'hidden');
-    let overlaycontainer = document.querySelector('.overlaycontainer');
-    overlaycontainer.style.setProperty('display', 'grid');
-    overlaycontainer.style.setProperty('grid-template-rows', '64px auto');
-    overlaycontainer.style.setProperty('overflow', 'hidden');
-    document.querySelector('.overlaytop').style.setProperty('grid-row', '1');
-    document.querySelector('.overlaytop').style.setProperty('overflow', 'hidden');
-    document.querySelector('.overlaymain').style.setProperty('grid-row', '2');
-    document.querySelector('.overlaymain').style.setProperty('overflow', 'auto');
-    document.querySelector('.overlaymain').innerHTML = (lang == "german") ? getGermanDataprotection() : getEnglishDataprotection();
-    document.querySelector('.overlaytop').innerHTML = getOverlayCloseButton();
-}
-
-
-function showImprint() {
-    let lang = getLanguage();
-    document.querySelector('.overlay').style.setProperty('overflow', 'hidden');
-    let overlaycontainer = document.querySelector('.overlaycontainer');
-    overlaycontainer.style.setProperty('display', 'grid');
-    overlaycontainer.style.setProperty('grid-template-rows', '64px auto');
-    overlaycontainer.style.setProperty('overflow', 'hidden');
-    document.querySelector('.overlaytop').style.setProperty('grid-row', '1');
-    document.querySelector('.overlaytop').style.setProperty('overflow', 'hidden');
-    document.querySelector('.overlaymain').style.setProperty('grid-row', '2');
-    document.querySelector('.overlaymain').style.setProperty('overflow', 'auto');
-    document.querySelector('.overlaymain').innerHTML = (lang == "german") ? getGemanImprint() : getEnglishImprint();
-    document.querySelector('.overlaytop').innerHTML = getOverlayCloseButton();
-}
-
 function scrollToDiv(element) {
     window.scroll(0, findTopPosition(document.getElementById(element)));
 }
@@ -480,10 +385,12 @@ export function findLeftPosition(obj) {
     }
 }
 
+function checkScreenSize() {
+    if(basketOpen && window.innerWidth > 1028) closeOverlay();
+}
+
 
 window.pay = pay;
-window.closeOverlay = closeOverlay;
-window.openOverlay = openOverlay;
 window.changeBasketOrderNote = changeBasketOrderNote;
 window.addNote = addNote;
 window.cancelNote = cancelNote;
@@ -493,3 +400,4 @@ window.addAmount = addAmount;
 window.minusAmount = minusAmount;
 window.clearOrderRow = clearOrderRow;
 window.scrollToDiv = scrollToDiv;
+window.onresize = checkScreenSize;

@@ -240,7 +240,7 @@ nav {
      display: grid;
      grid-template-columns: repeat(7, 1fr);
      grid-template-rows: 48px 48px auto 64px 40px 40px 40px;
-     height: calc(100vh - 130px);
+     height: calc(100vh - 64px);
      margin-top: -24px;
  }
  
@@ -1063,7 +1063,7 @@ html:not([data-scroll='0']) .navcontainer > .wrapper {
 
 
 .shoppingbasketcontainer {
-    max-height: 712px;
+    max-height: calc(100vh - 128px);
     width: 100%;
     overflow: hidden;
 }
