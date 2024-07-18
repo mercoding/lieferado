@@ -31,7 +31,7 @@ export async function includeHTML() {
 
 
 export function template(id, name) {
-    var contentId = document.getElementById(id);
+    let contentId = document.getElementById(id);
     contentId.removeAttribute("w3-include-html");
     contentId.setAttribute("w3-include-html", name);
 }
@@ -80,7 +80,7 @@ export function content() {
 
 // Load JSON file -> Martin
 function loadJSON(file) {
-    var xhReq = new XMLHttpRequest();
+    let xhReq = new XMLHttpRequest();
     xhReq.open("GET", file, false);
     xhReq.send(null);
     return JSON.parse(xhReq.responseText);

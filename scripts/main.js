@@ -372,7 +372,7 @@ function scrollToDiv(element) {
 
 
 export function findTopPosition(obj) {
-    var currenttop = 0;
+    let currenttop = 0;
     if (obj.offsetParent) {
         do {
             currenttop += obj.offsetTop;
@@ -383,7 +383,7 @@ export function findTopPosition(obj) {
 
 
 export function findLeftPosition(obj) {
-    var currentLeft = 0;
+    let currentLeft = 0;
     if (obj.offsetParent) {
         do {
             currentLeft += obj.offsetLeft - 40;
